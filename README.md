@@ -110,7 +110,7 @@ python3 generate_telegraph_token.py
 - **IS_TEAM_DRIVE** : (Optional field) Set to "True" if GDRIVE_FOLDER_ID is from a Team Drive else False or Leave it empty.
 - **USE_SERVICE_ACCOUNTS**: (Optional field) (Leave empty if unsure) Whether to use service accounts or not. For this to work see  "Using service accounts" section below.
 - **INDEX_URL** : (Optional field) Refer to https://github.com/maple3142/GDIndex/ The URL should not have any trailing '/'
-- **FIX_HASH_ISSUE**: If you will use [alx-xlx/goindex](https://github.com/alx-xlx/goindex) as index, set it to `True`. This will fix url trouble. Default is `False`
+- **FIX_HASH_ISSUE** : If you will use [alx-xlx/goindex](https://github.com/alx-xlx/goindex) as index, set it to `True`. This will fix url trouble. Default is `False`
 - **API_KEY** : This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org DO NOT put this in quotes.
 - **API_HASH** : This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org
 - **USER_SESSION_STRING** : Generate String session by [clicking here](https://generatestringsession.magneto261290.repl.run/) **OR** you can generate by running :
