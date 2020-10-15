@@ -171,6 +171,15 @@ except KeyError:
     SHORTENER = None
     SHORTENER_API = None
 
+try:
+    FIX_HASH_ISSUE = getConfig('FIX_HASH_ISSUE')
+    if FIX_HASH_ISSUE.lower() == 'true':
+        FIX_HASH_ISSUE = True
+    else:
+        FIX_HASH_ISSUE = False
+except KeyError:
+    FIX_HASH_ISSUE = False
+
 updater = tg.Updater(token=BOT_TOKEN,use_context=True)
 bot = updater.bot
 dispatcher = updater.dispatcher
